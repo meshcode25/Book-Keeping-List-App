@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+.container{
+margin:0.6rem auto;
+border-radius: 5px;
+width:30%;
+text-align: center;
+background:lightgray;
+}
+.form{
+    background-color: lightgrey;
+    padding:0.7rem;
+}
+.lebel{
+    text-align: left;
+    padding-left: 2rem;
+}
+.form-group{
+    margin-top: 1rem;
+}
+.container input{
+    width:80%;
+    padding:0.4rem;
+}
+.heading{
+    margin-bottom: -1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+.submit{
+    display: block;
+    background:green;
+    padding:0.4rem;
+    margin: 1.4rem auto;
+    font-weight: bold;
+    color:white;
+    border-radius:10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.table{
+    
+    background:rgb(172, 166, 166);
+    margin: 1rem;
+    margin:0.6rem auto;
+    width:30%;
+    text-align: center;
+    border-radius: 10px;
+    padding:0.4rem;
+    
+}
+.success{
+    background: green;
+    color:white;
+}
+.danger{
+    background: red;
+    color:white;
+}
+#alert{
+    margin-top: 1rem;
+    padding:0.4rem;
+}
+.table td{
+    padding-top: 0.4rem;
+    
+}
+.table thead{
+    color: gold;
+}
+.delete{
+color:red;
+font-size: large;
+ text-decoration:none;
+}
+.searchbook input{
+    padding:0.3rem;
+    text-align: left;
+    width:100%;
+    margin-left:6rem;
+    border-radius:10px;   
+    outline:none;
+    font-size: large;
+    text-transform: capitalize;
+}
+.searchbook input:hover{
+    outline:none;
+
+}
